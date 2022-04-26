@@ -1,0 +1,1 @@
+<img id="banner" src="ifpr_logo.png">

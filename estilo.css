@@ -1,0 +1,109 @@
+
+body {
+	font-family: arial, verdana;
+	background-color: #ADFF2F;
+}
+
+header#cabecalho h1 {
+	display: none;
+}
+
+header#cabecalho {
+	background-color: green;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav {
+	background-color: black;
+	height: 35px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+nav ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+nav li {
+	display: inline;
+	padding: 10px;
+	margin: 0px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 8px 8px 8px 8px;
+}
+
+nav a:hover {
+	color: black;
+	background-color: #FFFFFF;
+}
+
+@media all and (min-width: 1024px){
+	body{
+		width:1024px;
+		margin: auto;
+	}
+}
+
+@media all and (max-width: 480px){
+	nav {
+		height: 100%;
+	}
+
+	nav li {
+		display: block;
+		padding: 10px;
+		margin: 0px;
+		text-align: center;
+	}
+}
+
+footer {
+	background-color: green;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer img {
+	width: 50px;
+}
+
+section h2 {
+	text-align: center;
+}
+
+section p {
+	text-align: justify;
+}
+
+section p img {
+	width: 510px;
+	margin: auto;
+	text-align: center;
+	padding: auto;
+}
+
+.baixar a {
+	text-decoration: none;
+}
+
+
+section form {
+	box-shadow: 0px 0px 100px black;
+	text-align: center;
+	margin: auto;
+	width: 500px;
+	height: 300px;
+}
+
+form {
+	max-width: 100%;
+}

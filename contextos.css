@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+body {
+	background-color: green;
+	color: rgba(0,0,0,1);
+	font-family: times new roman;
+}
+
+div#interface {
+	width: 1000px;
+	background-color: #ffffff;
+	margin: auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 100px;
+	background: url("ifpr_logo.png") no-repeat;
+	border-radius: 20px;
+}
+
+/*Formatação do menu*/
+nav#menu {
+	display: block;
+}
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 30px;
+	left: 500px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+}
+
+header#cabecalho {
+	background-color: green;
+	display: block;
+	box-shadow: 0px 0px 10px black;
+}
+section#conteudo {
+	display: block;
+	width: 600px;
+	float: left;
+	border-right: none;
+}
+section#conteudo p {
+	text-align: justify;
+}
+aside#lateral {
+	display: block;
+	width: 350px;
+	float: right;
+}
+footer#rodape{
+	clear: both;
+	border-top: none;
+	background-color: green;
+	display: block;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 20px;
+	border-bottom: 1px #606060 solid;
+	height: 100px;
+}
+footer#rodape p {
+	text-align: center;
+	font-size: 12px;
+}
+footer#rodape p img {
+	width: 50px;
+}
+section#formulario {
+	margin: auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px 10px 10px 10px;
+}
+
+/*nav#menu {
+	display: block;
+}
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 30px;
+	left: 500px;
+}*/
+
+li#acesso {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+	text-transform: uppercase;
+}
+
+li#acesso:hover {
+	background-color: #606060;
+}
+
+li#acesso a {
+	color: #000000;
+	text-decoration: none;
+}
+
+li#acesso a:hover {
+	color: #ffffff;
+}
+
+section#prog1 {
+	display: block;
+	float: left;
+}
+aside#prog2 {
+	display: block;
+	float: right;
+}
+section#prog1 p img {
+	width: 450px;
+}
+aside#prog2 p img {
+	width: 450px;
+}

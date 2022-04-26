@@ -1,0 +1,84 @@
+/*menu estilizado*/
+ul {  
+    /*retira o símbolo que precede os itens da lista*/
+    list-style-type: none;
+    /*distância do menu em relação as margens*/
+    margin: 0;
+    /*distância do elemento html de suas bordas*/
+    padding: 0;
+    /*determina como um conteúdo será exbibido caso ele exceda a área da tela do navegador*/
+    overflow: hidden;
+    /*cor de fundo*/
+    background-color: green;
+}
+li {
+   /*altera o posicionamento de um componente HTML. Neste caso específico, fara com que a lista originalmente apresentada na vertical, seja colocada na posição horizontal*/
+    float: left;
+}
+li a {
+    /*referencia os elementos HTML li a para apresentação em bloco*/
+    display: block;
+    /*altera a cor do texto do bloco para branco*/
+    color: white;
+    /*alinha o texto no centro*/
+    text-align: center;
+    /*altera a distância do item de menu em relação as bordas do menu*/
+    padding: 14px 16px;
+    /*retira o sublinhado presente originalmente em elementos de link*/
+    text-decoration: none;
+
+
+ /*
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+*/
+    /*margin: 10px 20px 32px 18px;*/
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a.home:hover{
+    background-color: #15703b ;
+}
+
+body{
+    font-family: arial;
+}
+
+h1{
+    font-size: 14px;
+    color: green;
+}
+
+#menuacademico{
+    display: inline;
+    width: 25%;
+    float: left;
+    font-size: 14px;
+}
+
+#noticias{
+    display: inline;
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+}
+#menuacademicoII{
+    display: inline;
+    width: 25%;
+    float: right;
+    font-size: 14px;
+}
+.vestibular{
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+
+
